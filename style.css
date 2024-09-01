@@ -1,0 +1,67 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+/* Estilo do Header */
+header {
+    background: #9a0c0c;
+    color: #f4ebeb;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+header div ul {
+    list-style: none;
+    padding: 0;
+}
+
+header div ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header div ul li a {
+    color: #f3e5e5;
+    text-decoration: none;
+}
+
+/* Estilo das Seções */
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilo do Footer */
+footer {
+    background: #333;
+    color: #d50404;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header nav ul li {
+        font-size: 16px;
+    }
+}
